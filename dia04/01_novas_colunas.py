@@ -23,14 +23,14 @@ clientes.head()
 
 # Criar coluna que informa se a pessoa tem Email OU Twitch
 
-clientes['emailTwitch']  = clientes['flEmail'] + clientes['flTwitch']
+clientes['email_ou_Twitch']  = clientes['flEmail'] + clientes['flTwitch']
 clientes.head()
 
 # %%
 
-# Criar coluna que informa se a pessoa tem Email OU Twitch
+# Criar coluna que informa se a pessoa tem Email E Twitch
 
-clientes['emaileTwitch']  = clientes['flEmail'] * clientes['flTwitch']
+clientes['email_e_Twitch']  = clientes['flEmail'] * clientes['flTwitch']
 clientes.head()
 
 # %%
