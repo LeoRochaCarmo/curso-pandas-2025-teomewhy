@@ -35,13 +35,8 @@ df.drop_duplicates(subset=['nome', 'sobrenome'])
 
 # Removendo duplicatas mantendo o salário maior
 
-df.sort_values(by='salario', ascending=False)
-df.drop_duplicates(subset=['nome', 'sobrenome'], keep='last')
-
-# %%
-
 df = (df.sort_values(by='salario', ascending=False)
-        .drop_duplicates(subset=['nome', 'sobrenome'], keep='last'))
+        .drop_duplicates(subset=['nome', 'sobrenome'], keep='first'))
 
 df
 
