@@ -3,3 +3,4 @@ dia02/*.parquet
 dia02/*.xlsx
 dia08/*.csv
 data/ipea/*.csv
+data/*.db
